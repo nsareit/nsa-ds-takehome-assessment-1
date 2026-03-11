@@ -1,0 +1,16 @@
+# Data generation internals (not for candidates)
+generate_data.py
+weather_cache.json
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.env
