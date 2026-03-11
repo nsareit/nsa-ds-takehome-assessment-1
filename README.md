@@ -1,4 +1,4 @@
-# NSA Storage — Data Science Take-Home Challenge
+# NSA Storage - Data Science Take-Home Challenge
 
 ## Background
 
@@ -10,15 +10,15 @@ You've been given internal facility-level data for 14 storage locations across 8
 
 Three CSV files are provided in the `data/` directory:
 
-- **sites.csv** — Facility-level attributes (location, city, year opened)
-- **unit_groups.csv** — Unit group attributes per site (unit size, count, square footage)
-- **statements.csv** — Daily operational data per unit group (occupancy, move-ins, move-outs, street rate, and other fields)
+- **sites.csv** - Facility-level attributes (location, city, year opened)
+- **unit_groups.csv** - Unit group attributes per site (unit size, count, square footage)
+- **statements.csv** - Daily operational data per unit group (occupancy, move-ins, move-outs, street rate, and other fields)
 
 Weather data is **not included**. Part of the challenge is sourcing and integrating external weather data for the markets represented in the dataset.
 
 ## The Ask
 
-Using the provided data and any external data sources you find useful, explore the relationship between weather and storage demand. There is no single right answer — we want to understand how you think about and work with data.
+Using the provided data and any external data sources you find useful, explore the relationship between weather and storage demand. There is no single right answer - we want to understand how you think about and work with data.
 
 Specifically:
 
@@ -26,9 +26,9 @@ Specifically:
 
 2. **Source and integrate weather data.** Bring in external weather data for the markets in the dataset. Explain your source, any transformations, and how you joined it with the facility data.
 
-3. **Build something.** Develop a model, feature set, or analytical framework that demonstrates whether (and how) weather impacts storage demand. Explain your choices — what you tried, what worked, what didn't.
+3. **Build something.** Develop a model, feature set, or analytical framework that demonstrates whether (and how) weather impacts storage demand. Explain your choices - what you tried, what worked, what didn't.
 
-4. **Think ahead.** If we wanted to operationalize your work — use it to actually inform pricing or demand forecasting decisions — what would need to happen? What additional data would you want? What are the limitations of your approach?
+4. **Think ahead.** If we wanted to operationalize your work - use it to actually inform pricing or demand forecasting decisions - what would need to happen? What additional data would you want? What are the limitations of your approach?
 
 ## Evaluation
 
@@ -44,11 +44,11 @@ We care more about your process than your results. We're looking at:
 
 Please clone this repository into your own **private** GitHub repository. Commit all files used for the assessment (notebooks, scripts, documentation). When you're finished, invite the following collaborators to your private repo:
 
-- `[REVIEWER_1_GITHUB]`
-- `[REVIEWER_2_GITHUB]`
+- `Bhansen@nsareit.net`
+- `bnebeker@nsareit.net`
 
 ## Time
 
-There is no strict deadline. We recommend spending a weekend on this — we respect your time and are not looking for a production-grade system. Focus on showing us how you think.
+There is no strict deadline. We recommend spending a weekend on this - we respect your time and are not looking for a production-grade system. Focus on showing us how you think.
 
 Good luck, and have fun with it!
