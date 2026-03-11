@@ -2,9 +2,9 @@
 
 ## Background
 
-NSA Storage operates self-storage facilities across the United States. Our data science team is exploring whether local weather patterns can help us make better demand forecasting and pricing decisions.
+NSA Storage operates self-storage facilities across the United States. Our data science team wants to better understand what drives storage demand across our diverse markets. We operate in cities with very different climates and seasonal patterns - and we're curious what signals are hiding in the data.
 
-You've been given **synthetic** facility-level data for 14 storage locations across 8 U.S. markets. The data is entirely simulated and does not represent actual NSA Storage operations or performance. It covers daily operations at the unit group level (small, medium, and large units) from January 2024 through December 2025.
+You've been given synthetic facility-level data for 14 storage locations across 8 U.S. markets. The data is entirely simulated and does not represent actual NSA Storage operations or performance. It covers daily operations at the unit group level (small, medium, and large units) from January 2024 through December 2025.
 
 ## The Data
 
@@ -14,21 +14,21 @@ Three CSV files are provided in the `data/` directory:
 - **unit_groups.csv** - Unit group attributes per site (unit size, count, square footage)
 - **statements.csv** - Daily operational data per unit group (occupancy, move-ins, move-outs, street rate, and other fields)
 
-Weather data is **not included**. Part of the challenge is sourcing and integrating external weather data for the markets represented in the dataset.
+Weather data is not included. These facilities are spread across cities with very different climates - sourcing and integrating local weather data is part of the challenge.
 
 ## The Ask
 
-Using the provided data and any external data sources you find useful, explore the relationship between weather and storage demand. There is no single right answer - we want to understand how you think about and work with data.
+Dig into the data and help us understand what's going on with storage demand across these markets. There's no single right answer here - we want to see how you think about and work with data.
 
 Specifically:
 
-1. **Explore the data.** Walk us through your EDA process. What did you find? What's interesting, surprising, or worth flagging?
+1. **Explore the data.** Walk us through your EDA process. What patterns do you see? What's driving demand up or down across markets and over time? What's interesting, surprising, or worth flagging?
 
-2. **Source and integrate weather data.** Bring in external weather data for the markets in the dataset. Explain your source, any transformations, and how you joined it with the facility data.
+2. **Bring in weather data.** Source and integrate historical weather data for the markets in the dataset. Explain your source, any transformations you made, and how you joined it with the facility data. Beyond just raw weather, think about what weather features might actually matter for storage demand.
 
-3. **Build something.** Develop a model, feature set, or analytical framework that demonstrates whether (and how) weather impacts storage demand. Explain your choices - what you tried, what worked, what didn't.
+3. **Build something.** Develop a model, feature set, or analytical framework that helps us understand or predict storage demand. Explain your choices - what you tried, what worked, what didn't.
 
-4. **Think ahead.** If we wanted to operationalize your work - use it to actually inform pricing or demand forecasting decisions - what would need to happen? What additional data would you want? What are the limitations of your approach?
+4. **Think ahead.** If we wanted to take your work and actually use it to inform business decisions - pricing, staffing, marketing, whatever makes sense - what would that look like? What additional data would you want? What are the limitations of your approach?
 
 ## Evaluation
 
