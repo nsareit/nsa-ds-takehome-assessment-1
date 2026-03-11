@@ -4,7 +4,7 @@
 
 NSA Storage operates self-storage facilities across the United States. Our data science team is exploring whether local weather patterns can help us make better demand forecasting and pricing decisions.
 
-You've been given internal facility-level data for 14 storage locations across 8 U.S. markets. The data covers daily operations at the unit group level (small, medium, and large units) from January 2024 through December 2025.
+You've been given **synthetic** facility-level data for 14 storage locations across 8 U.S. markets. The data is entirely simulated and does not represent actual NSA Storage operations or performance. It covers daily operations at the unit group level (small, medium, and large units) from January 2024 through December 2025.
 
 ## The Data
 
