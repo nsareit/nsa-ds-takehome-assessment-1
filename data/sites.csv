@@ -1,0 +1,15 @@
+site_id,site_name,city,state,lat,lon,year_opened
+DEN-001,Aurora Storage Center,Denver,CO,39.7294,-104.8319,2018
+DEN-002,Lakewood Self Storage,Denver,CO,39.7047,-105.0814,2015
+DEN-003,Centennial Storage Hub,Denver,CO,39.5791,-104.869,2024
+PHX-001,Scottsdale Storage,Phoenix,AZ,33.4942,-111.9261,2016
+PHX-002,Mesa Secure Storage,Phoenix,AZ,33.4152,-111.8315,2019
+ORL-001,Kissimmee Storage Depot,Orlando,FL,28.292,-81.4076,2017
+ORL-002,Winter Park Storage,Orlando,FL,28.5997,-81.3392,2020
+DAL-001,Plano Storage Center,Dallas,TX,33.0198,-96.6989,2016
+DAL-002,Arlington Secure Storage,Dallas,TX,32.7357,-97.1081,2018
+CHI-001,Naperville Storage,Chicago,IL,41.7508,-88.1535,2015
+CHI-002,Schaumburg Self Storage,Chicago,IL,42.0334,-88.0834,2017
+PDX-001,Beaverton Storage,Portland,OR,45.4871,-122.8037,2019
+SLC-001,Sandy Storage Center,Salt Lake City,UT,40.5725,-111.859,2016
+ATL-001,Marietta Storage Depot,Atlanta,GA,33.9526,-84.5499,2018
